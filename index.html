@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+<table class = "elements">
+    <tbody>
+    <tr id=0>
+        <td><label>
+            <input type="text" class="text">
+        </label></td>
+        <td><label>
+            <input type="number" class="number">
+        </label></td>
+        <td><button onclick="moveUp(this)">&#8593;</button></td>
+        <td><button onclick="moveDown(this)">&#8595;</button></td>
+        <td><button onclick="removeElement(this)">&#10005;</button></td>
+    </tr>
+    </tbody>
+</table>
+
+<button onclick="addElement()">
+    Добавить элемент
+</button>
+
+<button onclick="saveElements()">
+    Сохранить
+</button>
+
+<div class="result">
+</div>
+
+</body>
+</html>
